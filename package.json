@@ -1,0 +1,38 @@
+{
+    "author": "rachel.li.325@gmail.com",
+    "dependencies": {},
+    "keywords": [],
+    "name": "watchface-1",
+    "pebble": {
+        "capabilities": [
+            "location"
+        ],
+        "displayName": "watchface 1",
+        "enableMultiJS": false,
+        "messageKeys": {
+            "KEY_CONDITIONS": 1,
+            "KEY_TEMPERATURE": 0
+        },
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/bluetooth icon.png",
+                    "name": "IMAGE_BT_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt"
+        ],
+        "uuid": "66a1e271-1c08-463c-ae5a-df468c62af9b",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}
